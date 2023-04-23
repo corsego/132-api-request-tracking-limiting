@@ -4,7 +4,7 @@ MySecretApiToken = api_token.token
 
 ```sh
 # check connection
-curl -X GET localhost:3000/api/v1/home/index.json -H "Authorization: Bearer MySecretApiToken"
+curl -v -X GET localhost:3000/api/v1/home/index.json -H "Authorization: Bearer MySecretApiToken"
 
 # posts#index
 curl -X GET localhost:3000/api/v1/posts.json -H "Authorization: Bearer MySecretApiToken"
